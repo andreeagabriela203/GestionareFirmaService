@@ -1,0 +1,334 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\bd\\FirmaService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E4508BAE-823A-4C2D-979B-DDFA445F71CB}|FirmaService.csproj|c:\\users\\user\\desktop\\bd\\firmaservice\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4508BAE-823A-4C2D-979B-DDFA445F71CB}|FirmaService.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4508BAE-823A-4C2D-979B-DDFA445F71CB}|FirmaService.csproj|c:\\users\\user\\desktop\\bd\\firmaservice\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4508BAE-823A-4C2D-979B-DDFA445F71CB}|FirmaService.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4508BAE-823A-4C2D-979B-DDFA445F71CB}|FirmaService.csproj|c:\\users\\user\\desktop\\bd\\firmaservice\\views\\angajati\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4508BAE-823A-4C2D-979B-DDFA445F71CB}|FirmaService.csproj|solutionrelative:views\\angajati\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4508BAE-823A-4C2D-979B-DDFA445F71CB}|FirmaService.csproj|c:\\users\\user\\desktop\\bd\\firmaservice\\views\\angajati\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4508BAE-823A-4C2D-979B-DDFA445F71CB}|FirmaService.csproj|solutionrelative:views\\angajati\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4508BAE-823A-4C2D-979B-DDFA445F71CB}|FirmaService.csproj|c:\\users\\user\\desktop\\bd\\firmaservice\\controllers\\clienticontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4508BAE-823A-4C2D-979B-DDFA445F71CB}|FirmaService.csproj|solutionrelative:controllers\\clienticontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4508BAE-823A-4C2D-979B-DDFA445F71CB}|FirmaService.csproj|c:\\users\\user\\desktop\\bd\\firmaservice\\controllers\\angajaticontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4508BAE-823A-4C2D-979B-DDFA445F71CB}|FirmaService.csproj|solutionrelative:controllers\\angajaticontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4508BAE-823A-4C2D-979B-DDFA445F71CB}|FirmaService.csproj|c:\\users\\user\\desktop\\bd\\firmaservice\\models\\clienti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4508BAE-823A-4C2D-979B-DDFA445F71CB}|FirmaService.csproj|solutionrelative:models\\clienti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4508BAE-823A-4C2D-979B-DDFA445F71CB}|FirmaService.csproj|c:\\users\\user\\desktop\\bd\\firmaservice\\views\\clienti\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4508BAE-823A-4C2D-979B-DDFA445F71CB}|FirmaService.csproj|solutionrelative:views\\clienti\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4508BAE-823A-4C2D-979B-DDFA445F71CB}|FirmaService.csproj|c:\\users\\user\\desktop\\bd\\firmaservice\\views\\dispozitive\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4508BAE-823A-4C2D-979B-DDFA445F71CB}|FirmaService.csproj|solutionrelative:views\\dispozitive\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4508BAE-823A-4C2D-979B-DDFA445F71CB}|FirmaService.csproj|c:\\users\\user\\desktop\\bd\\firmaservice\\views\\clienti\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4508BAE-823A-4C2D-979B-DDFA445F71CB}|FirmaService.csproj|solutionrelative:views\\clienti\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4508BAE-823A-4C2D-979B-DDFA445F71CB}|FirmaService.csproj|c:\\users\\user\\desktop\\bd\\firmaservice\\views\\clienti\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4508BAE-823A-4C2D-979B-DDFA445F71CB}|FirmaService.csproj|solutionrelative:views\\clienti\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4508BAE-823A-4C2D-979B-DDFA445F71CB}|FirmaService.csproj|c:\\users\\user\\desktop\\bd\\firmaservice\\views\\clienti\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4508BAE-823A-4C2D-979B-DDFA445F71CB}|FirmaService.csproj|solutionrelative:views\\clienti\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4508BAE-823A-4C2D-979B-DDFA445F71CB}|FirmaService.csproj|c:\\users\\user\\desktop\\bd\\firmaservice\\views\\clienti\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4508BAE-823A-4C2D-979B-DDFA445F71CB}|FirmaService.csproj|solutionrelative:views\\clienti\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4508BAE-823A-4C2D-979B-DDFA445F71CB}|FirmaService.csproj|c:\\users\\user\\desktop\\bd\\firmaservice\\controllers\\cautdispcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4508BAE-823A-4C2D-979B-DDFA445F71CB}|FirmaService.csproj|solutionrelative:controllers\\cautdispcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4508BAE-823A-4C2D-979B-DDFA445F71CB}|FirmaService.csproj|c:\\users\\user\\desktop\\bd\\firmaservice\\controllers\\angajati_serviciicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4508BAE-823A-4C2D-979B-DDFA445F71CB}|FirmaService.csproj|solutionrelative:controllers\\angajati_serviciicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4508BAE-823A-4C2D-979B-DDFA445F71CB}|FirmaService.csproj|c:\\users\\user\\desktop\\bd\\firmaservice\\controllers\\serviciicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4508BAE-823A-4C2D-979B-DDFA445F71CB}|FirmaService.csproj|solutionrelative:controllers\\serviciicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4508BAE-823A-4C2D-979B-DDFA445F71CB}|FirmaService.csproj|c:\\users\\user\\desktop\\bd\\firmaservice\\controllers\\piesecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4508BAE-823A-4C2D-979B-DDFA445F71CB}|FirmaService.csproj|solutionrelative:controllers\\piesecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4508BAE-823A-4C2D-979B-DDFA445F71CB}|FirmaService.csproj|c:\\users\\user\\desktop\\bd\\firmaservice\\controllers\\dispozitivecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4508BAE-823A-4C2D-979B-DDFA445F71CB}|FirmaService.csproj|solutionrelative:controllers\\dispozitivecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 18,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\bd\\FirmaService\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\bd\\FirmaService\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T13:01:13.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\bd\\FirmaService\\Views\\Angajati\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Angajati\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\bd\\FirmaService\\Views\\Angajati\\Index.cshtml",
+              "RelativeToolTip": "Views\\Angajati\\Index.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAD4AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T12:45:39.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\bd\\FirmaService\\Views\\Clienti\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Clienti\\Details.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\bd\\FirmaService\\Views\\Clienti\\Details.cshtml",
+              "RelativeToolTip": "Views\\Clienti\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T12:43:25.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\bd\\FirmaService\\Views\\Clienti\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Clienti\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\bd\\FirmaService\\Views\\Clienti\\Index.cshtml",
+              "RelativeToolTip": "Views\\Clienti\\Index.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC4AAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T12:43:15.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\bd\\FirmaService\\Views\\Clienti\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Clienti\\Create.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\bd\\FirmaService\\Views\\Clienti\\Create.cshtml",
+              "RelativeToolTip": "Views\\Clienti\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T12:43:10.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\bd\\FirmaService\\Views\\Clienti\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Clienti\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\bd\\FirmaService\\Views\\Clienti\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Clienti\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T12:43:03.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\bd\\FirmaService\\Views\\Dispozitive\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Dispozitive\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\bd\\FirmaService\\Views\\Dispozitive\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Dispozitive\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T12:42:47.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Clienti.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\bd\\FirmaService\\Models\\Clienti.cs",
+              "RelativeDocumentMoniker": "Models\\Clienti.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\bd\\FirmaService\\Models\\Clienti.cs",
+              "RelativeToolTip": "Models\\Clienti.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T12:33:07.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\bd\\FirmaService\\Views\\Angajati\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Angajati\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\bd\\FirmaService\\Views\\Angajati\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Angajati\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T12:23:46.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\bd\\FirmaService\\Views\\Clienti\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Clienti\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\bd\\FirmaService\\Views\\Clienti\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Clienti\\Edit.cshtml",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAcwC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T12:23:31.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CautDispController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\bd\\FirmaService\\Controllers\\CautDispController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CautDispController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\bd\\FirmaService\\Controllers\\CautDispController.cs",
+              "RelativeToolTip": "Controllers\\CautDispController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T14:45:33.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Angajati_ServiciiController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\bd\\FirmaService\\Controllers\\Angajati_ServiciiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Angajati_ServiciiController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\bd\\FirmaService\\Controllers\\Angajati_ServiciiController.cs",
+              "RelativeToolTip": "Controllers\\Angajati_ServiciiController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T14:40:41.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ServiciiController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\bd\\FirmaService\\Controllers\\ServiciiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ServiciiController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\bd\\FirmaService\\Controllers\\ServiciiController.cs",
+              "RelativeToolTip": "Controllers\\ServiciiController.cs",
+              "ViewState": "AQIAAGQAAAAAAAAAAAA7wIcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T20:06:37.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DispozitiveController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\bd\\FirmaService\\Controllers\\DispozitiveController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DispozitiveController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\bd\\FirmaService\\Controllers\\DispozitiveController.cs",
+              "RelativeToolTip": "Controllers\\DispozitiveController.cs",
+              "ViewState": "AQIAAIQAAAAAAAAAAAAowMsAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T20:03:17.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AngajatiController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\bd\\FirmaService\\Controllers\\AngajatiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AngajatiController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\bd\\FirmaService\\Controllers\\AngajatiController.cs",
+              "RelativeToolTip": "Controllers\\AngajatiController.cs",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAswJwAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T11:57:00.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClientiController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\bd\\FirmaService\\Controllers\\ClientiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClientiController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\bd\\FirmaService\\Controllers\\ClientiController.cs",
+              "RelativeToolTip": "Controllers\\ClientiController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T12:51:47.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\bd\\FirmaService\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\bd\\FirmaService\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T18:53:29.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PieseController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\bd\\FirmaService\\Controllers\\PieseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PieseController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\bd\\FirmaService\\Controllers\\PieseController.cs",
+              "RelativeToolTip": "Controllers\\PieseController.cs",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAkwI8AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T15:05:08.545Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

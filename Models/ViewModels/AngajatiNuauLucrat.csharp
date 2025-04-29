@@ -1,0 +1,12 @@
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace FirmaService.Models.ViewModels
+{
+    public class AngajatiNuauLucrat : Controller
+    {
+        public IActionResult Index()
+        {
+            return View();
+        }
+    }
+}

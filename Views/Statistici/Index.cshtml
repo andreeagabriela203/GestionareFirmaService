@@ -1,0 +1,85 @@
+﻿@model FirmaService.Models.Statistici
+
+@{
+    ViewData["Title"] = "Statistici";
+}
+
+<h2>Statistici Firma</h2>
+
+<!-- Angajatul lunii -->
+<h5>Angajatul cu cele mai multe dispozitive reparate:</h5>
+<p>
+    <strong>Nume:</strong> @Model.Nume<br />
+    <strong>Prenume:</strong> @Model.Prenume<br />
+    <strong>Număr dispozitive reparate:</strong> @Model.NrDispozitive
+</p>
+<p> <a href="@Url.Action("Angajati","Statistici")">Vizualizati angajatii care nu au reparat dispozitive</a></p>
+<a href="@Url.Action("IndexAng","Statistici")">Venit per Angajat</a>
+<!-- Venitul total -->
+<h5>Venitul total:</h5>
+<p><strong>@Model.Cost</strong></p>
+
+<!-- Piesa cea mai utilizată -->
+<h5>Piesa cea mai utilizată și stocul:</h5>
+<p>
+    <strong>Piesa:</strong> @Model.PiesaUtilizata<br />
+    <strong>Stoc rămas:</strong> @Model.Stoc<br />
+    <strong>Utilizări:</strong> @Model.Decateori
+</p>
+
+<!-- Piese neutilizate -->
+<h5>Piese neutilizate în ultimele 6 luni:</h5>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Tip Piesa</th>
+            <th>Marcă</th>
+            <th>Model</th>
+            <th>Stoc</th>
+            <th>Cost</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.TipPiesa != null && Model.TipPiesa.Count > 0)
+        {
+            for (int i = 0; i < Model.TipPiesa.Count; i++)
+            {
+                <tr>
+                    <td>@Model.TipPiesa[i]</td>
+                    <td>@Model.Marca[i]</td>
+                    <td>@Model.Model[i]</td>
+                    <td>@Model.StocPiesaNeutilizata[i]</td>
+                    <td>@Model.CostPiesaNeutilizata[i]</td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="5">Nu există piese neutilizate în ultimele 6 luni.</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h2>Statistici Venituri Medii pe Tipuri de Dispozitive</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Tip Dispozitiv</th>
+            <th>Cost Mediu</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if(Model.Disp.Count !=0)
+        @for (int i = 0; i < Model.Disp.Count; i++)
+        {
+            <tr>
+                <td>@Model.Disp[i]</td>
+                <td>@Model.CostMediu[i]</td>
+            </tr>
+        }
+    </tbody>
+</table>
+

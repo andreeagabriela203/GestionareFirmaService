@@ -1,0 +1,14 @@
+﻿namespace FirmaService.Models
+{
+    public class AngajatiServiciuViewModel
+    {
+     public string Serviciu { get; set; }
+    public string TipDispozitiv { get; set; }
+    public string TipPiesa { get; set; }
+    public string AngajatNume { get; set; }
+    public string AngajatPrenume { get; set; }
+    public int Cost { get; set; }
+    public DateTime DataIncepere { get; set; }
+    public DateTime? DataFinalizare { get; set; }
+    }
+}

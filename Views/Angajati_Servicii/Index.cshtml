@@ -1,0 +1,38 @@
+﻿@model List<Angajati_ServiciiViewModel>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Serviciu</th>
+            <th>Tip Dispozitiv</th>
+            <th>Marca</th>
+            <th>Model</th>
+            <th>Tip Piesa</th>
+            <th>Angajat</th>
+            <th>Cost</th>
+            <th>Data Incepere</th>
+            <th>Data Finalizare</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Serviciu</td>
+                <td>@item.TipDispozitiv</td>
+                <td>@item.Marca</td>
+                <td>@item.Model</td>
+                <td>@item.TipPiesa</td>
+                <td>@item.AngajatNume @item.AngajatPrenume</td>
+                <td>@item.Cost</td>
+                <td>@item.DataIncepere</td>
+				<td>@item.DataFinalizare</td>
+				<td>
+					<a asp-action="Edit" asp-route-id="@item.Angajati_ServiciuId">Editeaza</a> |
+					<a asp-action="Delete" asp-route-id="@item.Angajati_ServiciuId">Sterge</a>
+				</td>
+        </tr>
+        }
+   
+    </tbody>
+</table>

@@ -1,0 +1,36 @@
+﻿@model FirmaService.Models.Servicii
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Servicii</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Denumire)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Denumire)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DurataEstimata)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DurataEstimata)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CostServiciu)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CostServiciu)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.ServiciiId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

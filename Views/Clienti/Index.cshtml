@@ -1,0 +1,53 @@
+﻿@model IEnumerable<FirmaService.Models.Clienti>
+
+@{
+    ViewData["Title"] = "Index";
+
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Adaugati un nou client</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nume)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Prenume)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NrTelefon)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AdresaEmail)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nume)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Prenume)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NrTelefon)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AdresaEmail)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ClientiId">Editare</a> |
+                <a asp-action="Delete" asp-route-id="@item.ClientiId">Sterge</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

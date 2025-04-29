@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewData["Title"] = "Căutare Venit Mediu";
+}
+
+<h2>Căutare Venit Mediu per Angajat</h2>
+
+<form asp-action="IndexAng" method="post">
+    <div class="form-group">
+        <label for="NumeAng">Nume Angajat</label>
+        <input type="text" class="form-control" id="NumeAng" name="NumeAng" required>
+    </div>
+    <div class="form-group">
+        <label for="PrenumeAng">Prenume Angajat</label>
+        <input type="text" class="form-control" id="PrenumeAng" name="PrenumeAng" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Caută</button>
+</form>
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">
+        @ViewBag.Error
+    </div>
+}
+
+@if (ViewBag.VenitMediu != null)
+{
+    <h4>Venitul total generat de angajatul @ViewBag.NumeAng și @ViewBag.PrenumeAng este: @ViewBag.VenitMediu lei</h4>
+}

@@ -1,0 +1,50 @@
+﻿@model FirmaService.Models.Angajati_Servicii
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Angajati_Servicii</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ServiciiId" class="control-label"></label>
+                <input asp-for="ServiciiId" class="form-control" />
+                <span asp-validation-for="ServiciiId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AngajatiId" class="control-label"></label>
+                <input asp-for="AngajatiId" class="form-control" />
+                <span asp-validation-for="AngajatiId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DispozitiveId" class="control-label"></label>
+                <input asp-for="DispozitiveId" class="form-control" />
+                <span asp-validation-for="DispozitiveId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PieseID" class="control-label"></label>
+                <input asp-for="PieseID" class="form-control" />
+                <span asp-validation-for="PieseID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Cost" class="control-label"></label>
+                <input asp-for="Cost" class="form-control" />
+                <span asp-validation-for="Cost" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

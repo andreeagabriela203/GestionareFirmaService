@@ -1,0 +1,72 @@
+﻿@model IEnumerable<FirmaService.Models.Angajati>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Adaugati un nou angajat</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nume)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Prenume)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataNastere)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataAngajare)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Salariu)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CNP)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Adresa)
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nume)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Prenume)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataNastere)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataAngajare)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Salariu)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CNP)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Adresa)
+            </td>
+
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.AngajatiId">Editeaza|</a>
+                <a asp-action="Delete" asp-route-id="@item.AngajatiId">Sterge</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

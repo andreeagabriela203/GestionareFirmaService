@@ -1,0 +1,44 @@
+﻿@model FirmaService.Models.Angajati_Servicii
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Angajati_Servicii</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Angajati_ServiciiId" />
+            <div class="form-group">
+             <div class="form-group">
+                <label asp-for="Cost" class="control-label"></label>
+                <input asp-for="Cost" class="form-control" />
+                <span asp-validation-for="Cost" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Data_Incepere" class="control-label"></label>
+                <input asp-for="Data_Incepere" class="form-control" />
+                <span asp-validation-for="Data_Incepere" class="text-danger"></span>
+            </div>
+                <div class="form-group">
+                    <label asp-for="DataFinalizare" class="control-label"></label>
+                    <input asp-for="DataFinalizare" class="form-control" />
+                    <span asp-validation-for="DataFinalizare" class="text-danger"></span>
+                </div>
+            </div>
+             
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

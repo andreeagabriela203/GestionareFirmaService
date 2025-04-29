@@ -1,0 +1,40 @@
+﻿@model FirmaService.Models.Servicii
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Servicii</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Denumire" class="control-label"></label>
+                <input asp-for="Denumire" class="form-control" />
+                <span asp-validation-for="Denumire" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DurataEstimata" class="control-label"></label>
+                <input asp-for="DurataEstimata" class="form-control" />
+                <span asp-validation-for="DurataEstimata" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CostServiciu" class="control-label"></label>
+                <input asp-for="CostServiciu" class="form-control" />
+                <span asp-validation-for="CostServiciu" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

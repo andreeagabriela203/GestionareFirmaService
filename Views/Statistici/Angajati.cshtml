@@ -1,0 +1,39 @@
+﻿@model List<NuAuLucrat>
+
+@{
+    ViewData["Title"] = "Angajati care nu au lucrat la niciun dispozitiv";
+}
+
+<h2>Angajati care nu au lucrat la niciun dispozitiv in:</h2>
+
+<!-- Formular pentru selectarea numărului de luni -->
+<form asp-action="Angajati" method="get">
+    <label for="nrLuni">Număr de luni:</label>
+    <select id="nrLuni" name="nrLuni" class="form-control" style="width: 200px; display: inline-block;">
+        <option value="1" selected>1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+    </select>
+    <button type="submit" class="btn btn-primary">Afișează</button>
+</form>
+
+<!-- Tabel cu rezultatele -->
+<table class="table table-bordered" style="margin-top: 20px;">
+    <thead>
+        <tr>
+            <th>Nume Angajat</th>
+            <th>Prenume Angajat</th>
+            <th>Salariu</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@(item.NumeAngajat)</td>
+                <td>@(item.PrenumeAngajat)</td>
+                <td>@(item.Salariu)</td>
+            </tr>
+        }
+    </tbody>
+</table>

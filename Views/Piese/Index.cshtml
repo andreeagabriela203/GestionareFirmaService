@@ -1,0 +1,64 @@
+﻿@model IEnumerable<FirmaService.Models.Piese>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Adaugati o noua piesa</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TipPiesa)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Model)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Marca)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TipDispozitiv)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Stoc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cost)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TipPiesa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Model)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Marca)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TipDispozitiv)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Stoc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cost)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.PieseId">Editare</a> |
+                <a asp-action="Delete" asp-route-id="@item.PieseId">Sterge</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

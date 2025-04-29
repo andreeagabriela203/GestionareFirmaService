@@ -1,0 +1,29 @@
+﻿@model IEnumerable<FirmaService.Models.InLucru>
+
+@{
+    ViewData["Title"] = "Dispozitive In lucru";
+}
+
+<h2>Dispozitive a căror reparare întârzie:</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Tip Dispozitiv</th>
+            <th>Marcă</th>
+            <th>Model</th>
+            <th>Piesa Lipsă</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@(item.TipDispozitiv )</td>
+                <td>@(item.Marca)</td>
+                <td>@(item.Model)</td>
+                <td>@(item.piesa_lipsa)</td>
+            </tr>
+        }
+    </tbody>
+</table>

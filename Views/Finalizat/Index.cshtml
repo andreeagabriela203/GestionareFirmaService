@@ -1,0 +1,38 @@
+﻿@model IEnumerable<FirmaService.Models.Finalizat>
+
+@{
+    ViewData["Title"] = "Dispozitive Rezolvate";
+}
+
+<h2>Dispozitive Rezolvate</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Client Nume</th>
+            <th>Client Prenume</th>
+            <th>Tip Dispozitiv</th>
+            <th>Status</th>
+            <th>Cost Final</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+           
+                <tr>
+                    <td>@item.ClientNume</td>
+                    <td>@item.ClientPrenume</td>
+                    <td>@item.TipDispozitiv</td>
+                    <td>@item.Status</td>
+                    <td>@item.Cost</td>
+                </tr>
+           }
+        
+    </tbody>
+</table>
+<h4>Verificati aici dispozitivele a caror reparare intarzie din cauza lipsei pieselor necesare:</h4>
+<li>
+    <a href="@Url.Action("Index", "InLucru")">Dispozitive In Lucru</a><br />
+</li>
+

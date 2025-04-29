@@ -1,0 +1,52 @@
+﻿@model List<FirmaService.Models.CautDisp>
+
+@{
+    ViewData["Title"] = "Caută Dispozitive";
+}
+
+<h1>Caută Dispozitive</h1>
+
+<form asp-action="Index" method="post">
+    <div class="form-group">
+        <label for="Nume">Nume Client</label>
+        <input type="text" class="form-control" id="Nume" name="Nume" required>
+    </div>
+    <div class="form-group">
+        <label for="Prenume">Prenume Client</label>
+        <input type="text" class="form-control" id="Prenume" name="Prenume" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Caută</button>
+</form>
+
+@if (ViewBag.IsSearchPerformed == true)
+{
+    @if (Model != null && Model.Any())
+    {
+        <h3>Rezultate:</h3>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Tip Dispozitiv</th>
+                    <th>Model</th>
+                    <th>Marca</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var dispozitiv in Model)
+                {
+                    <tr>
+                        <td>@dispozitiv.TipDispozitiv</td>
+                        <td>@dispozitiv.Model</td>
+                        <td>@dispozitiv.Marca</td>
+                        <td>@dispozitiv.Status</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>Nu există rezultate pentru căutarea efectuată.</p>
+    }
+}
