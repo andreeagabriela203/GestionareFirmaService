@@ -19,7 +19,8 @@ Baza de date include tabele pentru gestionarea angajaților, clienților, dispoz
 
 ## Structura bazei de date
 Tabelele împreună cu atributele specifice și tipul lor de date.
-###Angajați:
+
+### Angajați:
  -Nume	nvarchar(50)
  -Prenume	nvarchar(50)
  -Adresa	nvarchar(50)
@@ -27,23 +28,23 @@ Tabelele împreună cu atributele specifice și tipul lor de date.
  -DataAngajare	datetime
  -Salariu	int
  -CNP 	     int
-###Clienți:
+### Clienți:
  -Nume	nvarchar(50)
  -Prenume	nvarchar(50)
  -AdresaEmail	nvarchar(50)
  -NrTelefon	int
-###Dispozitive:
+### Dispozitive:
  -ClientID	int
  -TipDispozitiv	nvarchar(50)
  -Marca	nvarchar(50)
  -Model	nvarchar(50)
  -Problema	nvarchar(50)
  -Status	nchar(10)
-###Servicii:
+### Servicii:
  -Denumire	nvarchar(50)
  -DurataEstimata	nvarchar(50)
  -CostServiciu	int
-###Piese:
+### Piese:
  -TipPiesa	nvarchar(50)
  -TipDispozitiv	nvarchar(50)
  -Model	nvarchar(50)
